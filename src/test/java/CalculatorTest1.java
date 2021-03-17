@@ -28,11 +28,16 @@ public class CalculatorTest1  extends TestCase{
 
     @Test
     public void testGetDivide() throws Exception {
-        assertEquals(6, calculator.getDivide(12, 2));
+        assertEquals(6, calculator.getDivide(12, 2));c
     }
 
     @Test
     public void testGetMultiple() throws Exception {
         assertEquals(9, calculator.getMultiple(3, 3));
+    }
+
+    @Test
+    public void testGetSubtract() throws Exception {
+        assertEquals(5, calculator.getSubtract(10, 5) );
     }
 }

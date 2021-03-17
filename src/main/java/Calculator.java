@@ -11,5 +11,9 @@ public class Calculator {
         return x*y;
     }
 
+    public int getSubtract(int x, int y) {
+        return x - y;
+    }
+
 
 }
