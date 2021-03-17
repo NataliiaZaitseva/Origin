@@ -18,6 +18,8 @@ public class Calculator {
     public double getSquareRoot(int x, int y) {
         return Math.pow(Double.valueOf(x), Double.valueOf(y));
     }
+    
+    // Comment to code
 
 
 }
