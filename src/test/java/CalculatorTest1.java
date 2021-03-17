@@ -28,7 +28,7 @@ public class CalculatorTest1  extends TestCase{
 
     @Test
     public void testGetDivide() throws Exception {
-        assertEquals(6, calculator.getDivide(12, 2));c
+        assertEquals(6, calculator.getDivide(12, 2));
     }
 
     @Test
@@ -39,5 +39,10 @@ public class CalculatorTest1  extends TestCase{
     @Test
     public void testGetSubtract() throws Exception {
         assertEquals(5, calculator.getSubtract(10, 5) );
+    }
+
+    @Test
+    public void testGetSquareRoot() throws Exception {
+        assertEquals(9.00, calculator.getSquareRoot(3, 2));
     }
 }

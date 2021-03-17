@@ -15,5 +15,9 @@ public class Calculator {
         return x - y;
     }
 
+    public double getSquareRoot(int x, int y) {
+        return Math.pow(Double.valueOf(x), Double.valueOf(y));
+    }
+
 
 }
